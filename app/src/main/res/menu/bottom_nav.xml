@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_pantry" android:title="@string/nav_pantry" android:icon="@android:drawable/ic_lock_lock" />
+    <item android:id="@+id/nav_recipes" android:title="@string/nav_recipes" android:icon="@android:drawable/ic_btn_speak_now" />
+    <item android:id="@+id/nav_plans" android:title="@string/nav_plans" android:icon="@android:drawable/ic_menu_my_calendar" />
+    <item android:id="@+id/nav_grocery" android:title="@string/nav_grocery" android:icon="@android:drawable/ic_menu_edit" />
+    <item android:id="@+id/nav_kitchen" android:title="@string/nav_kitchen_items" android:icon="@android:drawable/ic_menu_manage" />
+</menu>
