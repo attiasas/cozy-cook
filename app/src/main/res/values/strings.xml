@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cozy Cook</string>
+    <string name="nav_pantry">Pantry</string>
+    <string name="nav_recipes">Recipes</string>
+    <string name="nav_plans">Meal Plans</string>
+    <string name="nav_grocery">Grocery List</string>
+    <string name="nav_kitchen_items">Kitchen Items</string>
+    <string name="add_recipe">Add Recipe</string>
+    <string name="search_recipes">Search recipes…</string>
+    <string name="daily_plan">Today</string>
+    <string name="weekly_plan">This Week</string>
+    <string name="generate_plan">Generate Plan</string>
+    <string name="add_to_calendar">Add to Calendar</string>
+</resources>
