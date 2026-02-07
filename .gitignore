@@ -22,8 +22,6 @@ local.properties
 # Keystore and secrets
 *.jks
 *.keystore
-*.properties
-!gradle.properties
 
 # Logs and temp
 *.log
