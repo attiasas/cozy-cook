@@ -1,6 +1,5 @@
 package com.cozycook.data.entity;
 
-import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.ForeignKey;
 import androidx.room.Index;
@@ -17,7 +16,7 @@ import androidx.room.PrimaryKey;
         childColumns = "recipeId",
         onDelete = ForeignKey.CASCADE
     ),
-    indices = {@Index("recipeId"), @Index("dateMillis"), @Index("dateMillis, slot")}
+    indices = {@Index("recipeId")}
 )
 public class MealPlanEntity {
 
@@ -25,10 +24,8 @@ public class MealPlanEntity {
     public long id;
 
     public long recipeId;
-
-    @ColumnInfo(name = "dateMillis")
-    public long dateMillis;     // day (start of day UTC or local)
-
+    /** Day (start of day in millis). Column name must be exactly dateMillis for Room indices. */
+    public long dateMillis;
     public int slot;            // 0=breakfast, 1=lunch, 2=dinner, 3=snack
     public String planGroup;    // e.g. "week_2025-02-03" for weekly batch
 
